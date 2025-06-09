@@ -12,8 +12,6 @@ Este proyecto consiste en un micro sitio web desarrollado como parte de la asign
 - **Repositorio en GitHub:** [https://github.com/usuario/ordinario-ftw](https://github.com/JAMtheProgrammer/ordinario-ftw.git)
 - **Video de presentación en YouTube:** [Enlace al video]( https://youtu.be/1TNbSJGl3T8 )
 
-> _Reemplaza los enlaces por los tuyos_
-
 ---
 
 ## Estructura del Sitio
