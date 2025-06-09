@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<canciones>
+  <cancion>
+    <titulo>Na de na</titulo>
+    <artista>khrizyAngelTV</artista>
+    <genero>Reggaetón</genero>
+    <anio>2008</anio>
+    <calificacion>5</calificacion>
+    <url>https://youtu.be/qzJFQ5PY9oQ?si=2FfuNhvcFichYBFa</url>
+  </cancion>
+  <cancion>
+    <titulo>Even Flow</titulo>
+    <artista>Pearl jam</artista>
+    <genero>Rock</genero>
+    <anio>2005</anio>
+    <calificacion>4</calificacion>
+    <url>https://youtu.be/CxKWTzr-k6s?si=XiJnwo3GK9N03QAm</url>
+  </cancion>
+  <cancion>
+    <titulo>Like a Stone</titulo>
+    <artista>Audioslave</artista>
+    <genero>Rock</genero>
+    <anio>2002</anio>
+    <calificacion>5</calificacion>
+    <url>https://youtu.be/7QU1nvuxaMA?si=RDuLBfhZA5W5y3uO</url>
+  </cancion>
+  <cancion>
+    <titulo>EARFQUAKE</titulo>
+    <artista>Tyler, The creator</artista>
+    <genero>Hip-hop</genero>
+    <anio>2019</anio>
+    <calificacion>5</calificacion>
+    <url>https://youtu.be/HmAsUQEFYGI?si=a-RKsczwEKG-IU3y</url>
+  </cancion>
+</canciones>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topcanciones>
+  <cancion>
+    <titulo>Dance dance</titulo>
+    <artista>Fall Out Boy</artista>
+    <genero>Rock</genero>
+    <url>https://youtu.be/C6MOKXm8x50?si=6Vg1mwrrFyt0waUb</url>
+  </cancion>
+  <cancion>
+    <titulo>Somebody That I Used To Know</titulo>
+    <artista>Gotye</artista>
+    <genero>Soul</genero>
+    <url>https://youtu.be/8UVNT4wvIGY?si=0qEwIkV3KnOKD1_5</url>
+  </cancion>
+  <cancion>
+    <titulo>Wake Me Up</titulo>
+    <artista>The Wekeend</artista>  
+    <genero>Pop</genero>
+    <url>https://youtu.be/QNGCMgvcbpA?si=D1RTPQwXgYVNkLGT</url>
+  </cancion>
+</topcanciones>

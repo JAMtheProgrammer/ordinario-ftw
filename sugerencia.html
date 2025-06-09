@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sugerir mejora | MyMusic</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <header class="navbar" role="banner">
+    <nav aria-label="Navegación principal" role="navigation">
+      <div class="nav-logo" aria-label="Logo MyMusic">
+        <span aria-hidden="true" style="font-size:1.6em;">🎵</span>
+        <span class="logo-text">MyMusic</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="sugerencia.html" aria-current="page">Sugerir mejora</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="dashboard" role="main">
+    <section class="dashboard-header">
+      <h1>Sugerencias y comentarios</h1>
+      <p>¿Tienes una idea, comentario o mejora para MyMusic? ¡Envíala aquí!</p>
+    </section>
+    <section class="dashboard-card">
+      <h2>Tu opinión nos ayuda a mejorar</h2>
+      <form id="formMejora" autocomplete="off">
+        <label for="nombre">Tu nombre (opcional):</label>
+        <input type="text" id="nombre" name="nombre">
+        <label for="email">Correo electrónico (opcional):</label>
+        <input type="email" id="email" name="email">
+        <label for="sugerencia">Tu sugerencia o comentario:</label>
+        <textarea id="sugerencia" name="sugerencia" rows="4" required placeholder="¿Qué te gustaría ver, mejorar o agregar en el sitio?"></textarea>
+        <button type="submit">Enviar sugerencia</button>
+      </form>
+
+      <div id="mensaje-mejora" aria-live="polite" style="margin-top:1.1rem;font-weight:600;text-align:center;"></div>
+    </section>
+  </main>
+  <footer role="contentinfo">
+    <p>&copy; 2025. Proyecto ordinario FTW. JAM.</p>
+  </footer>
+  <script>
+  document.getElementById('formMejora').addEventListener('submit', function(e){
+    e.preventDefault();
+    document.getElementById('mensaje-mejora').textContent = "¡Gracias por tu sugerencia! Tu opinión nos ayuda a mejorar MyMusic.";
+    this.reset();
+  });
+  </script>
+</body>
+</html>

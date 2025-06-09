@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Canciones | MyMusic</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <header class="navbar" role="banner">
+    <nav aria-label="Navegación principal" role="navigation">
+      <div class="nav-logo" aria-label="Logo MyMusic">
+        <span aria-hidden="true" style="font-size:1.6em;">🎵</span>
+        <span class="logo-text">MyMusic</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="catalogo.html" aria-current="page">Catálogo</a></li>
+        <li><a href="sugerencia.html">Sugerir mejora</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="dashboard" role="main">
+    <section class="dashboard-header">
+      <h1>Catálogo de Canciones</h1>
+      <p>Descubre y comparte música recomendada por la comunidad.</p>
+    </section>
+    <section class="dashboard-card destacados">
+      <h2>🎤 Top Canciones del Mes</h2>
+      <ul class="top-canciones">
+        <li>
+          <span class="badge-genero pop">Pop</span>
+          <strong>Flowers</strong> – Miley Cyrus
+          <a href="https://www.youtube.com/watch?v=G7KNmW9a75Y" target="_blank" aria-label="Escuchar Flowers en YouTube">Escuchar</a>
+        </li>
+        <li>
+          <span class="badge-genero rock">Rock</span>
+          <strong>Bohemian Rhapsody</strong> – Queen
+          <a href="https://www.youtube.com/watch?v=fJ9rUzIMcZQ" target="_blank" aria-label="Escuchar Bohemian Rhapsody en YouTube">Escuchar</a>
+        </li>
+        <li>
+          <span class="badge-genero electronica">Electrónica</span>
+          <strong>Wake Me Up</strong> – Avicii
+          <a href="https://www.youtube.com/watch?v=IcrbM1l_BoI" target="_blank" aria-label="Escuchar Wake Me Up en YouTube">Escuchar</a>
+        </li>
+      </ul>
+    </section>
+    <section class="dashboard-card generos-populares">
+      <h2>Géneros populares</h2>
+      <div class="badges-generos" role="list" aria-label="Géneros musicales más populares">
+        <span class="badge-genero pop" role="listitem">Pop</span>
+        <span class="badge-genero rock" role="listitem">Rock</span>
+        <span class="badge-genero electronica" role="listitem">Electrónica</span>
+        <span class="badge-genero hiphop" role="listitem">Hip-Hop</span>
+        <span class="badge-genero jazz" role="listitem">Jazz</span>
+        <span class="badge-genero clasica" role="listitem">Clásica</span>
+        <span class="badge-genero reggaeton" role="listitem">Reggaetón</span>
+        <span class="badge-genero soul" role="listitem">Soul</span>
+        <span class="badge-genero folk" role="listitem">Folk</span>
+        <span class="badge-genero latina" role="listitem">Latina</span>
+      </div>
+    </section>
+    <section class="dashboard-card stats">
+      <h2>Estadísticas</h2>
+      <ul class="estadisticas-lista">
+        <li><strong id="total-canciones">0</strong> canciones en el catálogo</li>
+        <li><strong id="total-generos">0</strong> géneros disponibles</li>
+      </ul>
+    </section>
+    <section class="dashboard-controls">
+      <h2>Filtra por género</h2>
+      <form id="filtro-genero" aria-label="Filtrar por género">
+        <label for="genero">Selecciona un género:</label>
+        <select id="genero" name="genero">
+          <option value="todos">Todos</option>
+          <option value="Pop">Pop</option>
+          <option value="Rock">Rock</option>
+          <option value="Cumbia">Cumbia</option>
+          <option value="Hip-Hop">Hip-Hop</option>
+          <option value="Jazz">Jazz</option>
+          <option value="Clásica">Clásica</option>
+          <option value="Reggaetón">Reggaetón</option>
+          <option value="Soul">Soul</option>
+          <option value="Folk">Folk</option>
+          <option value="Latina">Latina</option>
+        </select>
+      </form>
+    </section>
+    <section class="dashboard-table" aria-labelledby="descTabla">
+      <h2 id="descTabla">Listado de canciones recomendadas</h2>
+      <div aria-live="polite">
+        <div id="alerta-busqueda" aria-live="polite" style="text-align:center;color:#E46C6C;"></div>
+        <table id="tabla-canciones">
+          <thead>
+            <tr>
+              <th scope="col">Título</th>
+              <th scope="col">Artista</th>
+              <th scope="col">Género</th>
+              <th scope="col">Año</th>
+              <th scope="col">Calificación</th>
+              <th scope="col">Escuchar</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <footer role="contentinfo">
+    <p>&copy; 2025. Proyecto ordinario FTW. JAM.</p>
+  </footer>
+  <script src="scripts/catalogo.js"></script>
+</body>
+</html>
