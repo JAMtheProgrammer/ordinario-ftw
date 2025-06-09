@@ -8,8 +8,8 @@ Este proyecto consiste en un micro sitio web desarrollado como parte de la asign
 
 ## Enlaces principales
 
-- **Sitio en GitHub Pages:** [https://usuario.github.io/ordinario-ftw/](https://usuario.github.io/ordinario-ftw/)
-- **Repositorio en GitHub:** [https://github.com/usuario/ordinario-ftw](https://github.com/usuario/ordinario-ftw)
+- **Sitio en GitHub Pages:** [https://usuario.github.io/ordinario-ftw/](https://jamtheprogrammer.github.io/ordinario-ftw/)
+- **Repositorio en GitHub:** [https://github.com/usuario/ordinario-ftw](https://github.com/JAMtheProgrammer/ordinario-ftw.git)
 - **Video de presentación en YouTube:** [Enlace al video]( https://youtu.be/1TNbSJGl3T8 )
 
 > _Reemplaza los enlaces por los tuyos_
